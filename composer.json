@@ -1,5 +1,5 @@
 {
-    "name": "javonet/php",
+    "name": "javonet/javonet-php-sdk",
     "description": "Javonet allows you to reference and use modules or packages written in (Java/Kotlin/Groovy/Clojure, C#/VB.NET, Ruby, Perl, Python, PHP, JavaScript/TypeScript) like they were created in your technology.",
     "type": "library",
     "license": "MIT",
