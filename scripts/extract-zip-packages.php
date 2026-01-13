@@ -65,6 +65,12 @@ foreach ($zipMap as $zipFile => $path) {
         echo "  📊 Extracted: $fileCount files\n";
         $extractedCount++;
 
+        if (unlink($zipPath)) {
+            echo "  🗑️  Deleted ZIP archive: $zipFile\n";
+        } else {
+            echo "  ⚠️  Could not delete ZIP archive: $zipFile\n";
+        }
+
     } catch (Exception $e) {
         echo "  ❌ Error: " . $e->getMessage() . "\n";
     }
