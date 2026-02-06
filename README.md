@@ -12,7 +12,7 @@ Get free from programming languages barriers today! For more information check o
         "@post-update-cmd"
     ],
     "post-update-cmd": [
-        "@php vendor/javonet/javonet-php-sdk/scripts/download-lfs-files.php"
+        "@php vendor/javonet/javonet-php-sdk/scripts/download-lfs-files.php",
         "@php vendor/javonet/javonet-php-sdk/scripts/extract-zip-packages.php"
     ]
 }
